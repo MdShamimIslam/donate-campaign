@@ -4,7 +4,7 @@ import Home from "./Home/Home.jsx";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-screen-xl	 mx-auto mt-8">
       <RouterProvider router={router}>
         <Home></Home>
       </RouterProvider>
