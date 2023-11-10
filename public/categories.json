@@ -6,10 +6,9 @@
       "categoryName": "food",
       "price": 102000,
       "description": "Provide a nutritious meal for someone in need.",
-      "categoryName_bg": "#FF6347",
-      "card_bg": "#ffc8dd",
-      "btn_bg": "#ffafcc",
-      "text_color": "#F87147"
+      "categoryName_bg": "#BFC9CA ",
+      "card_bg": " #D5DBDB ",
+      "text_color": "#F08080"
     },
     {
       "id": 2,
@@ -18,10 +17,9 @@
       "categoryName": "education",
       "price": 150000,
       "description": "Support a student with essential school supplies.",
-      "categoryName_bg": "#87CEEB",
-      "card_bg": "#FFF",
-      "btn_bg": "#87CEEB",
-      "text_color": "#FF444A"
+      "categoryName_bg": "#F5CBA7",
+      "card_bg": "#F6DDCC",
+      "text_color": "#3EB7B5"
     },
     {
       "id": 3,
@@ -30,9 +28,8 @@
       "categoryName": "health",
       "price": 200000,
       "description": "Contribute to a health checkup for someone in need.",
-      "categoryName_bg": "#32CD32",
-      "card_bg": "#FFF",
-      "btn_bg": "#32CD32",
+      "categoryName_bg": "#F7DC6F ",
+      "card_bg": "#F9E79F",
       "text_color": "#0052FF"
     },
     {
@@ -42,9 +39,8 @@
       "categoryName": "clothing",
       "price": 125000,
       "description": "Provide warm clothing for the cold season.",
-      "categoryName_bg": "#9370DB",
-      "card_bg": "#FFF",
-      "btn_bg": "#9370DB",
+      "categoryName_bg": "#AED6F1",
+      "card_bg": "#D4E6F1 ",
       "text_color": "#79C23F"
     },
     {
@@ -54,10 +50,9 @@
       "categoryName": "education",
       "price": 150000,
       "description": "Support a student with essential school supplies.",
-      "categoryName_bg": "#87CEEB",
-      "card_bg": "#FFF",
-      "btn_bg": "#87CEEB",
-      "text_color": "#FF444A"
+      "categoryName_bg": "#F5CBA7",
+      "card_bg": "#F6DDCC",
+      "text_color": "#3EB7B5"
     },
     {
       "id": 6,
@@ -66,9 +61,8 @@
       "categoryName": "health",
       "price": 200000,
       "description": "Contribute to a health checkup for someone in need.",
-      "categoryName_bg": "#32CD32",
-      "card_bg": "#FFF",
-      "btn_bg": "#32CD32",
+      "categoryName_bg": "#F7DC6F ",
+      "card_bg": "#F9E79F",
       "text_color": "#0052FF"
     },
     {
@@ -78,9 +72,8 @@
       "categoryName": "clothing",
       "price": 125000,
       "description": "Provide warm clothing for the cold season.",
-      "categoryName_bg": "#9370DB",
-      "card_bg": "#FFF",
-      "btn_bg": "#9370DB",
+      "categoryName_bg": "#AED6F1",
+      "card_bg": "#D4E6F1 ",
       "text_color": "#79C23F"
     },
     {
@@ -90,10 +83,9 @@
       "categoryName": "food",
       "price": 102000,
       "description": "Provide a nutritious meal for someone in need.",
-      "categoryName_bg": "#FF6347",
-      "card_bg": "#FFF",
-      "btn_bg": "#FF6347",
-      "text_color": "#F87147"
+      "categoryName_bg": "#BFC9CA ",
+      "card_bg": " #D5DBDB ",
+      "text_color": "#F08080"
     },
     {
       "id": 9,
@@ -102,9 +94,8 @@
       "categoryName": "clothing",
       "price": 125000,
       "description": "Provide warm clothing for the cold season.",
-      "categoryName_bg": "#9370DB",
-      "card_bg": "#FFF",
-      "btn_bg": "#9370DB",
+      "categoryName_bg": "#AED6F1",
+      "card_bg": "#D4E6F1 ",
       "text_color": "#79C23F"
     },
     {
@@ -114,33 +105,30 @@
       "categoryName": "education",
       "price": 150000,
       "description": "Support a student with essential school supplies.",
-      "categoryName_bg": "#87CEEB",
-      "card_bg": "#FFF",
-      "btn_bg": "#87CEEB",
-      "text_color": "#FF444A"
+      "categoryName_bg": "#F5CBA7",
+      "card_bg": "#F6DDCC",
+      "text_color": "#3EB7B5"
     },
     {
-      "id": 8,
+      "id": 11,
       "img": "https://i.ibb.co/yk9nbbD/FOOD.jpg",
       "title": "Nutritious Meal Pack",
       "categoryName": "food",
       "price": 102000,
       "description": "Provide a nutritious meal for someone in need.",
-      "categoryName_bg": "#FF6347",
-      "card_bg": "#FFF",
-      "btn_bg": "#FF6347",
-      "text_color": "#F87147"
+      "categoryName_bg": "#BFC9CA ",
+      "card_bg": " #D5DBDB ",
+      "text_color": "#F08080"
     },
     {
-      "id": 6,
+      "id": 12,
       "img": "https://i.ibb.co/PNqbnZQ/health.jpg",
       "title": "Medical Treatment Fund",
       "categoryName": "health",
       "price": 200000,
       "description": "Contribute to a health checkup for someone in need.",
-      "categoryName_bg": "#32CD32",
-      "card_bg": "#FFF",
-      "btn_bg": "#32CD32",
+      "categoryName_bg": "#F7DC6F ",
+      "card_bg": "#F9E79F",
       "text_color": "#0052FF"
     }
     
