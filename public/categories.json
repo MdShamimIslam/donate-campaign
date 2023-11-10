@@ -1,19 +1,19 @@
 [
     {
       "id": 1,
-      "img": "food_image.jpg",
+      "img": "https://i.ibb.co/yk9nbbD/FOOD.jpg",
       "title": "Nutritious Meal Pack",
       "categoryName": "food",
       "price": 102000,
       "description": "Provide a nutritious meal for someone in need.",
       "categoryName_bg": "#FF6347",
-      "card_bg": "#FFF",
-      "btn_bg": "#FF6347",
-      "text_color": "#000"
+      "card_bg": "#ffc8dd",
+      "btn_bg": "#ffafcc",
+      "text_color": "#F87147"
     },
     {
       "id": 2,
-      "img": "education_image.jpg",
+      "img": "https://i.ibb.co/QQShHcS/education.jpg",
       "title": "School Supplies Kit",
       "categoryName": "education",
       "price": 150000,
@@ -21,23 +21,23 @@
       "categoryName_bg": "#87CEEB",
       "card_bg": "#FFF",
       "btn_bg": "#87CEEB",
-      "text_color": "#000"
+      "text_color": "#FF444A"
     },
     {
       "id": 3,
-      "img": "health_image.jpg",
-      "title": "Medical Checkup Sponsorship",
+      "img": "https://i.ibb.co/PNqbnZQ/health.jpg",
+      "title": "Medical Treatment Fund",
       "categoryName": "health",
       "price": 200000,
       "description": "Contribute to a health checkup for someone in need.",
       "categoryName_bg": "#32CD32",
       "card_bg": "#FFF",
       "btn_bg": "#32CD32",
-      "text_color": "#000"
+      "text_color": "#0052FF"
     },
     {
       "id": 4,
-      "img": "clothing_image.jpg",
+      "img": "https://i.ibb.co/4Ppz2QZ/cloth.jpg",
       "title": "Warm Winter Clothes",
       "categoryName": "clothing",
       "price": 125000,
@@ -45,103 +45,104 @@
       "categoryName_bg": "#9370DB",
       "card_bg": "#FFF",
       "btn_bg": "#9370DB",
-      "text_color": "#000"
+      "text_color": "#79C23F"
     },
     {
       "id": 5,
-      "img": "food_image2.jpg",
-      "title": "Emergency Food Supply",
-      "categoryName": "food",
-      "price": 130000,
-      "description": "Support families with an emergency food supply.",
-      "categoryName_bg": "#FF6347",
+      "img": "https://i.ibb.co/QQShHcS/education.jpg",
+      "title": "School Supplies Kit",
+      "categoryName": "education",
+      "price": 150000,
+      "description": "Support a student with essential school supplies.",
+      "categoryName_bg": "#87CEEB",
       "card_bg": "#FFF",
-      "btn_bg": "#FF6347",
-      "text_color": "#000"
+      "btn_bg": "#87CEEB",
+      "text_color": "#FF444A"
     },
     {
       "id": 6,
-      "img": "education_image2.jpg",
-      "title": "Digital Learning Kit",
-      "categoryName": "education",
-      "price": 18,
-      "description": "Enable remote learning with a digital learning kit.",
-      "categoryName_bg": "#87CEEB",
+      "img": "https://i.ibb.co/PNqbnZQ/health.jpg",
+      "title": "Medical Treatment Fund",
+      "categoryName": "health",
+      "price": 200000,
+      "description": "Contribute to a health checkup for someone in need.",
+      "categoryName_bg": "#32CD32",
       "card_bg": "#FFF",
-      "btn_bg": "#87CEEB",
-      "text_color": "#000"
+      "btn_bg": "#32CD32",
+      "text_color": "#0052FF"
     },
     {
       "id": 7,
-      "img": "health_image2.jpg",
-      "title": "Vaccination Support",
-      "categoryName": "health",
-      "price": 15,
-      "description": "Contribute to vaccination efforts for a healthier community.",
-      "categoryName_bg": "#32CD32",
+      "img": "https://i.ibb.co/4Ppz2QZ/cloth.jpg",
+      "title": "Warm Winter Clothes",
+      "categoryName": "clothing",
+      "price": 125000,
+      "description": "Provide warm clothing for the cold season.",
+      "categoryName_bg": "#9370DB",
       "card_bg": "#FFF",
-      "btn_bg": "#32CD32",
-      "text_color": "#000"
+      "btn_bg": "#9370DB",
+      "text_color": "#79C23F"
     },
     {
       "id": 8,
-      "img": "clothing_image2.jpg",
-      "title": "School Uniform Assistance",
-      "categoryName": "clothing",
-      "price": 22,
-      "description": "Help provide school uniforms for underprivileged children.",
-      "categoryName_bg": "#9370DB",
-      "card_bg": "#FFF",
-      "btn_bg": "#9370DB",
-      "text_color": "#000"
-    },
-    {
-      "id": 9,
-      "img": "food_image3.jpg",
-      "title": "Community Kitchen Support",
+      "img": "https://i.ibb.co/yk9nbbD/FOOD.jpg",
+      "title": "Nutritious Meal Pack",
       "categoryName": "food",
-      "price": 12,
-      "description": "Support a community kitchen providing meals to those in need.",
+      "price": 102000,
+      "description": "Provide a nutritious meal for someone in need.",
       "categoryName_bg": "#FF6347",
       "card_bg": "#FFF",
       "btn_bg": "#FF6347",
-      "text_color": "#000"
+      "text_color": "#F87147"
     },
     {
-      "id": 10,
-      "img": "education_image3.jpg",
-      "title": "Library Enhancement Project",
-      "categoryName": "education",
-      "price": 25,
-      "description": "Contribute to enhancing a local library for students.",
-      "categoryName_bg": "#87CEEB",
-      "card_bg": "#FFF",
-      "btn_bg": "#87CEEB",
-      "text_color": "#000"
-    },
-    {
-      "id": 11,
-      "img": "health_image3.jpg",
-      "title": "Medical Treatment Fund",
-      "categoryName": "health",
-      "price": 35,
-      "description": "Support individuals in need of critical medical treatments.",
-      "categoryName_bg": "#32CD32",
-      "card_bg": "#FFF",
-      "btn_bg": "#32CD32",
-      "text_color": "#000"
-    },
-    {
-      "id": 12,
-      "img": "clothing_image3.jpg",
-      "title": "Warm Blanket Distribution",
+      "id": 9,
+      "img": "https://i.ibb.co/4Ppz2QZ/cloth.jpg",
+      "title": "Warm Winter Clothes",
       "categoryName": "clothing",
-      "price": 15,
-      "description": "Distribute warm blankets to homeless individuals during winter.",
+      "price": 125000,
+      "description": "Provide warm clothing for the cold season.",
       "categoryName_bg": "#9370DB",
       "card_bg": "#FFF",
       "btn_bg": "#9370DB",
-      "text_color": "#000"
+      "text_color": "#79C23F"
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/QQShHcS/education.jpg",
+      "title": "School Supplies Kit",
+      "categoryName": "education",
+      "price": 150000,
+      "description": "Support a student with essential school supplies.",
+      "categoryName_bg": "#87CEEB",
+      "card_bg": "#FFF",
+      "btn_bg": "#87CEEB",
+      "text_color": "#FF444A"
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/yk9nbbD/FOOD.jpg",
+      "title": "Nutritious Meal Pack",
+      "categoryName": "food",
+      "price": 102000,
+      "description": "Provide a nutritious meal for someone in need.",
+      "categoryName_bg": "#FF6347",
+      "card_bg": "#FFF",
+      "btn_bg": "#FF6347",
+      "text_color": "#F87147"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/PNqbnZQ/health.jpg",
+      "title": "Medical Treatment Fund",
+      "categoryName": "health",
+      "price": 200000,
+      "description": "Contribute to a health checkup for someone in need.",
+      "categoryName_bg": "#32CD32",
+      "card_bg": "#FFF",
+      "btn_bg": "#32CD32",
+      "text_color": "#0052FF"
     }
+    
   ]
   
