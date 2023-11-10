@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Category = ({ category }) => {
-  const { title, categoryName, img,card_bg,categoryName_bg,text_color } = category;
+  const { id,title, categoryName, img,card_bg,categoryName_bg,text_color } = category;
 
   const cardBg = {
     backgroundColor: card_bg
@@ -15,7 +15,7 @@ const Category = ({ category }) => {
   }
 
   return (
-    <Link to="/">
+    <Link to={`/category/${id}`}>
       <div style={cardBg} className="card card-compact bg-base-100 shadow-xl">
         <figure>
           <img className="w-full h-[200px]" src={img} alt="image" />

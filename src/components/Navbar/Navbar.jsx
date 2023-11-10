@@ -1,5 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import {FcDonate} from 'react-icons/fc';
+
 
 const Navbar = () => {
 
@@ -10,7 +12,7 @@ const Navbar = () => {
   </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +22,10 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Logo</a>
+    <Link to="/" className="btn btn-ghost normal-case text-xl">
+     <FcDonate  className='text-4xl'></FcDonate>
+     <h2 className="text-4xl"><span className='text-yellow-300'>D</span>onation</h2>
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
