@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DonateCategory = ({ category }) => {
   const {
+    id,
     img,
     categoryName,
     title,
@@ -38,14 +40,16 @@ const DonateCategory = ({ category }) => {
         <div style={categoryBg} className="w-[80px] p-1 rounded-lg text-center">
           <p style={textColor}>{categoryName}</p>
         </div>
-        <h2 style={textColor} className="card-title">
+        <h2 className="card-title text-black">
           {title}
         </h2>
         <p style={textColor}>${price}</p>
         <div className="card-actions">
-          <button style={btnBG} className="btn text-white">
+          <Link to={`/category/${id}`}>
+          <button style={btnBG} className="btn text-white border-0">
             view details
           </button>
+          </Link>
         </div>
       </div>
     </div>

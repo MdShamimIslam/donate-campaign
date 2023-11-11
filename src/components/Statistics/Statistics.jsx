@@ -1,55 +1,95 @@
-import React from 'react';
-import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
+import { PieChart, Pie, Cell } from "recharts";
+import { getStoredDonateApplication } from "../../utility/localstorage";
 
 const Statistics = () => {
+  const categories = useLoaderData()
+  const [donateCategories, setDonateCategories] = useState([]);
 
-    const data = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-        { name: 'Group C', value: 300 },
-        { name: 'Group D', value: 200 },
-      ];
-      
-      const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-      
-      const RADIAN = Math.PI / 180;
-      const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent}) => {
-        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-        const x = cx + radius * Math.cos(-midAngle * RADIAN);
-        const y = cy + radius * Math.sin(-midAngle * RADIAN);
-      
-        return (
-          <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-            {`${(percent * 100).toFixed(0)}%`}
-          </text>
-        );
-      };
+  useEffect(() => {
+    const storedDonateIds = getStoredDonateApplication();
+    if (categories.length > 0) {
+      const donateApplications = categories.filter((category) =>
+        storedDonateIds.includes(category.id)
+      );
+      setDonateCategories(donateApplications);
+    } 
+  }, []);
 
+  const totalDonatePrice = categories.reduce((sum,category)=> category.price + sum, 0);
+  const donateCategoriesPrice = donateCategories.reduce((sum,category)=> category.price + sum, 0);
+  const duePrice = totalDonatePrice - donateCategoriesPrice;
+  console.log(typeof donateCategoriesPrice, typeof duePrice);
+
+  
+
+  const data = [
+    { name: "Group A", value: duePrice },
+    { name: "Group B", value:  donateCategoriesPrice}
+  ];
+  const COLORS = ["#0088FE", "#00C49F"];
+  
+  const RADIAN = Math.PI / 180;
+  const renderCustomizedLabel = ({
+    cx,
+    cy,
+    midAngle,
+    innerRadius,
+    outerRadius,
+    percent,
+    index
+  }) => {
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * RADIAN);
+    const y = cy + radius * Math.sin(-midAngle * RADIAN);
+  
     return (
-        <div>
-            <h3>statistics page</h3>
-            <div>
-            <ResponsiveContainer width="100%" height="100%">
-        <PieChart width={400} height={400}>
-          <Pie
-            data={data}
-            cx="50%"
-            cy="50%"
-            labelLine={false}
-            label={renderCustomizedLabel}
-            outerRadius={80}
-            fill="#8884d8"
-            dataKey="value"
-          >
-            {data.map((index) => (
-              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-            ))}
-          </Pie>
-        </PieChart>
-      </ResponsiveContainer>
-            </div>
-        </div>
+      <text
+        x={x}
+        y={y}
+        fill="white"
+        textAnchor={x > cx ? "start" : "end"}
+        dominantBaseline="central"
+      >
+        {`${(percent * 100).toFixed(0)}%`}
+      </text>
     );
+  };
+  return (
+    <div className="text-center">
+      {/* <h2 className="text-lg">Total Donation : <div className="bg-red-600  p-1 w-[200px]"></div></h2>
+      <h2 className="text-lg">Your Donation : <span className="bg-blue-500 "></span></h2> */}
+      
+
+      <div className="flex justify-center">
+      <PieChart width={400} height={400}>
+      <Pie
+        data={data}
+        cx={200}
+        cy={200}
+        labelLine={false}
+        label={renderCustomizedLabel}
+        outerRadius={80}
+        fill="#8884d8"
+        dataKey="value"
+      >
+        {data.map((entry, index) => (
+          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+        ))}
+      </Pie>
+    </PieChart>
+      </div>
+      <div className="flex justify-center -mt-16 mb-6">
+      <div>
+      <h2 className="text-lg">Total Donation</h2>
+      <div className="bg-[#0088FE] w-[150px] p-1"></div>
+      <h2 className=" mt-4 text-lg">Your Donation</h2>
+      <div className="bg-[#00C49F] w-[150px] p-1"></div>
+      </div>
+      </div>
+    </div>
+  );
 };
 
 export default Statistics;

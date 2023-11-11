@@ -25,14 +25,14 @@ const CategoryDetails = () => {
 
   return (
     <div className="mt-12">
-      <div className="card w-[600px] mx-auto p-4">
+      <div className="card md:w-[600px] mx-auto p-4">
         <div className="image-container">
             <img className="rounded-lg image" src={img} alt="category-image" />
             <div className="overlay"></div>
-            <button onClick={notify} style={categoryBg} className="absolute w-[140px] p-2 rounded-md -mt-16 ml-4 ">Donate ${price}</button>
+            <button onClick={notify} style={categoryBg} className="absolute w-[140px] p-2 rounded-md md:-mt-16 -mt-12 ml-4 ">Donate ${price}</button>
         </div>
-        <div className="mt-12">
-        <h2 className="text-3xl font-semibold">{categoryName}</h2>
+        <div className="mt-8">
+        <h2 className="text-3xl font-semibold underline">{categoryName}</h2>
         <p className="text-lg mt-2">{description}</p>
         </div>
       </div>

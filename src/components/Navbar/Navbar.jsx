@@ -7,9 +7,9 @@ import {FcDonate} from 'react-icons/fc';
 const Navbar = () => {
 
   const links = <>
-    <li><NavLink to="/">Home</NavLink></li>
-    <li><NavLink to="/donation">Donation</NavLink></li>
-    <li><NavLink to="/statistics">Statistics</NavLink></li>
+    <li className='text-lg'><NavLink to="/">Home</NavLink></li>
+    <li className='text-lg'><NavLink to="/donation">Donation</NavLink></li>
+    <li className='text-lg'><NavLink to="/statistics">Statistics</NavLink></li>
   </>
 
     return (
