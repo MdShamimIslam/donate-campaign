@@ -6,7 +6,7 @@ const ErrorPage = () => {
         <div className='text-center mt-36 md:mt-64'>
             <h3 className="text-7xl text-red-700 font-bold">Ops!!!!</h3>
             <h2 className='text-4xl font-semibold mt-2'>Page not found</h2>
-            <Link to='/' ><button className='mt-4 btn'>Back to Home</button></Link>
+            <Link to='/' ><button className='mt-3 btn'>Back to Home</button></Link>
         </div>
     );
 };

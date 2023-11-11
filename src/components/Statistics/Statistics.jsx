@@ -21,7 +21,6 @@ const Statistics = () => {
   const donateCategoriesPrice = donateCategories.reduce((sum,category)=> category.price + sum, 0);
   const duePrice = totalDonatePrice - donateCategoriesPrice;
   console.log(typeof donateCategoriesPrice, typeof duePrice);
-
   
 
   const data = [
