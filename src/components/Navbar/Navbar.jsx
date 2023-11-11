@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import {FcDonate} from 'react-icons/fc';
 
 
+
 const Navbar = () => {
 
   const links = <>
@@ -24,6 +25,7 @@ const Navbar = () => {
     </div>
     <Link to="/" className="btn btn-ghost normal-case text-xl">
      <FcDonate  className='text-4xl'></FcDonate>
+     
      <h2 className="text-4xl"><span className='text-yellow-300'>D</span>onation</h2>
     </Link>
   </div>
@@ -32,7 +34,9 @@ const Navbar = () => {
       {links}
     </ul>
   </div>
-  
+  <div className="navbar-end">
+    <NavLink to="/" className="btn">Blogs</NavLink>
+  </div>
 </div>
     );
 };

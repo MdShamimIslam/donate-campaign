@@ -26,7 +26,7 @@ const DonateCategory = ({ category }) => {
   };
 
   return (
-    <div style={cardBg} className="card card-side shadow-xl mt-6">
+    <div style={cardBg} className="card card-side shadow-xl my-4">
       <figure>
         <img
           className="lg:h-[250px] md:h-[280px] h-[280px]"
