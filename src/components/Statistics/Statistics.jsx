@@ -58,10 +58,6 @@ const Statistics = () => {
   };
   return (
     <div className="text-center">
-      {/* <h2 className="text-lg">Total Donation : <div className="bg-red-600  p-1 w-[200px]"></div></h2>
-      <h2 className="text-lg">Your Donation : <span className="bg-blue-500 "></span></h2> */}
-      
-
       <div className="flex justify-center">
       <PieChart width={400} height={400}>
       <Pie
